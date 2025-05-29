@@ -173,8 +173,8 @@ class _HomePageState extends State<HomePage> {
                     buttonText: "Bills",
                   ),
                   MyButton(
-                    iconImagePath: "lib/icons/bill.png",
-                    buttonText: "Bills",
+                    iconImagePath: "lib/icons/credits.png",
+                    buttonText: "Credits",
                   ),
                 ],
               ),
@@ -203,9 +203,9 @@ class _HomePageState extends State<HomePage> {
                     tileSubTitle: "Transaction History",
                   ),
                   MyListTile(
-                    iconImagePath: "lib/icons/transaction.png",
-                    tileTitle: "Transactions",
-                    tileSubTitle: "Transaction History",
+                    iconImagePath: "lib/icons/documents.png",
+                    tileTitle: "Documents",
+                    tileSubTitle: "Banking Information",
                   ),
                 ],
               ),
