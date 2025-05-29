@@ -58,7 +58,8 @@ class _HomePageState extends State<HomePage> {
           ),
         ),
         body: SafeArea(
-            child: Column(
+            child: SingleChildScrollView(
+                child: Column(
           children: [
             //app bar
             Padding(
@@ -112,7 +113,7 @@ class _HomePageState extends State<HomePage> {
                     cardNumber: 12345678,
                     expiryMonth: 10,
                     expiryYear: 24,
-                    color: Colors.deepPurple[300],
+                    color: Colors.yellow,
                   ),
                   MyCard(
                     balance: 342.23,
@@ -171,6 +172,10 @@ class _HomePageState extends State<HomePage> {
                     iconImagePath: "lib/icons/bill.png",
                     buttonText: "Bills",
                   ),
+                  MyButton(
+                    iconImagePath: "lib/icons/bill.png",
+                    buttonText: "Bills",
+                  ),
                 ],
               ),
             ),
@@ -197,10 +202,15 @@ class _HomePageState extends State<HomePage> {
                     tileTitle: "Transactions",
                     tileSubTitle: "Transaction History",
                   ),
+                  MyListTile(
+                    iconImagePath: "lib/icons/transaction.png",
+                    tileTitle: "Transactions",
+                    tileSubTitle: "Transaction History",
+                  ),
                 ],
               ),
             )
           ],
-        )));
+        ))));
   }
 }
