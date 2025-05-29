@@ -113,7 +113,7 @@ class _HomePageState extends State<HomePage> {
                     cardNumber: 12345678,
                     expiryMonth: 10,
                     expiryYear: 24,
-                    color: Colors.yellow,
+                    color: Colors.purple,
                   ),
                   MyCard(
                     balance: 342.23,
