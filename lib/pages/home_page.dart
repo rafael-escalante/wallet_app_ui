@@ -48,6 +48,14 @@ class _HomePageState extends State<HomePage> {
                 IconButton(
                   onPressed: () {},
                   icon: Icon(
+                    Icons.notifications,
+                    size: 32,
+                    color: Colors.grey,
+                  ),
+                ),
+                IconButton(
+                  onPressed: () {},
+                  icon: Icon(
                     Icons.settings,
                     size: 32,
                     color: Colors.grey,
@@ -116,7 +124,7 @@ class _HomePageState extends State<HomePage> {
                     color: Colors.purple,
                   ),
                   MyCard(
-                    balance: 342.23,
+                    balance: 3242.23,
                     cardImage: "lib/icons/mastercard.png",
                     cardNumber: 12345678,
                     expiryMonth: 11,
